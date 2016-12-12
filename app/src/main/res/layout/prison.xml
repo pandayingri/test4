@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game_start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.star_.test3.StoryActivity"
+    android:background="@drawable/prison">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="106dp"
+        android:background="#00ff0000"
+        app:srcCompat="@drawable/main1"
+        android:id="@+id/imageView2"
+        android:layout_gravity="bottom"
+        />
+
+    <TextSwitcher
+        android:layout_width="501dp"
+        android:layout_height="91dp"
+        android:layout_gravity="bottom|center"
+        android:id="@+id/textSwitcher"
+        >
+
+    </TextSwitcher>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/sword1"
+        android:id="@+id/swordBt"
+        android:elevation="0dp"
+        android:layout_gravity="bottom|end"/>
+
+
+</FrameLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">test3</string>
+    <string name="quit_dlg_confirmation_title">Game exit!</string>
+    <string name="quit_dlg_confirmation_msg">Rebellion을 종료하시겠습니까??</string>
+</resources>

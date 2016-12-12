@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="새로하기"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:onClick="Clickmethod"
+        android:id="@+id/newgame" />
+
+    <Button
+        android:text="이어하기"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Clickmethod"
+        android:id="@+id/contin"
+        android:layout_below="@+id/newgame"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
